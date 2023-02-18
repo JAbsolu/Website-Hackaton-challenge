@@ -8,12 +8,16 @@ import Dashboard from './dashboard/dashboard';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/'" element={<Home />}></Route>
-      <Route path="'/dashboard/dashboard'" element={<Dashboard />}></Route>
-      <Route path="/signin/signin" element={<Signin />}></Route>
-      <Route path="/signup/signup" element={<SignUp />}></Route>
-    </Routes>  )
+    // <Routes>
+    //   <Route path="/" element={<Home />} />
+    //   <Route path="/dashboard" element={<Dashboard />} />
+    //   <Route path="/signin" element={<Signin />} />
+    //   <Route path="/signup" element={<SignUp />} />
+    // </Routes>  
+    <div>
+      <Home/>
+    </div>
+  )
 };
 
 export default App;

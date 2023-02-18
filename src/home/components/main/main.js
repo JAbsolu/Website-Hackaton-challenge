@@ -1,13 +1,13 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 
 const HomeMain = () => {
   return (
-    <Container>
-      <h1 className="text-dark">Hello world</h1>
-      <h1 className="text-red">Hello world</h1>
+    <Container className="justify-content-center">
+      <Row className="banner justify-content-center" >
+      </Row>
     </Container>
-  );
+  )
 }
 
 export default HomeMain;
