@@ -15,6 +15,7 @@
 
 .brand-img {
     max-width: 15rem;
+    margin-left: 1rem;
 } 
 
 a {
@@ -36,19 +37,22 @@ a {
 
 .administrator-login {
     font-size: 1.2rem;
-    margin-right: 5rem;
 }
 
 .signin {
     background-color: var(--green);
+    width: 6rem;
+    text-align: center;
 }
 
 .signup {
     border: solid 1px var(--yellow);
+    width: 6rem;
+    text-align: center;
 }
 
 .banner {
-    background-image: url('./Images/socialy-banner.png');
+    background-image: url('./Images/socially-banner.png');
     min-height: 100vh !important;
     background-repeat: no-repeat;
 }
