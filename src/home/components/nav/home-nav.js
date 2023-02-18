@@ -8,9 +8,9 @@ const HomeNav = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="#" className="nav-link">About us</Link>
-          <Link to="#" className="nav-link">Cook and consider</Link>
+          <Link href="/" className="nav-link">Home</Link>
+          <Link href="#" className="nav-link">About us</Link>
+          <Link href="#" className="nav-link">Cook and consider</Link>
           <NavDropdown title="Sign In" id="basic-nav-dropdown">
             <Link to="../../../signin/signin" className="dropdown-item">Sign in</Link>
             <Link to="../../../signup/signup" className="dropdown-item">Sign up</Link>
