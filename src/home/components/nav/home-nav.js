@@ -10,11 +10,11 @@ const HomeNav = () => {
   return (
     <Row>
       <Col md={8} className="justicy-content-center">
-      <Navbar.Brand href="#home" className='brand'><img src={logo} className="brand-img"/></Navbar.Brand>
-    </Col>
+        <Navbar.Brand href="#home" className='brand'><img src={logo} className="brand-img"/></Navbar.Brand>
+      </Col>
       <Col md={4}>
         <Navbar className='nav' expand="lg">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu-toggle'/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu-toggle'/>
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link className='administrator-login' to="/signin">For Administrators</Nav.Link>
