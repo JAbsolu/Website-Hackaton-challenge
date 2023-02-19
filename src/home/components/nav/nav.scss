@@ -1,0 +1,69 @@
+$yellow: #FCC617;
+$green: #8CC63F;
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #5F5F5F;
+$light-grey: #EFEFEF;
+
+.nav {
+    background-color: $white;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+
+    .menu-toggle {
+        margin-right: 1rem;
+    }
+
+    .brand-img {
+        max-width: 15rem;
+        margin-left: 1rem;
+    } 
+
+    .nav-link {
+        font-weight: bold;
+        color: $black;
+        border-radius: 5px;
+        margin: 0 .5rem;
+    }
+
+    .signin {
+        background-color: $green;
+        width: 6rem;
+        text-align: center;
+    }
+    
+    .signup:hover {
+        background-color: $yellow;
+    }
+    
+    .signup {
+        border: solid 1px $yellow;
+        width: 6rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav {
+        .signin {
+            background: $white;
+            border: none;
+        }
+
+        .signin:hover {
+            background-color: $green;
+            text-transform: underline;
+        }
+
+        .signup {
+            background: $white;
+            border: none;
+        }
+
+        .signup:hover {
+            background-color: $green;
+            text-transform: underline ;
+        }
+    }
+}

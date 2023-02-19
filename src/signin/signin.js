@@ -1,12 +1,12 @@
 import { Container } from "react-bootstrap";
-import SigninForm from "./components/signin-form/form";
+import SigninMain from "./components/main/main";
 
-const Signin = () => {
+const SigninPage = () => {
     return (
         <Container>
-          <SigninForm/>
+          <SigninMain/>
         </Container>
     );
 };
 
-export default Signin;
+export default SigninPage;
