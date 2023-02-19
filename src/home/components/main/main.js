@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row} from "react-bootstrap";
+import './main.css';
 
 const HomeMain = () => {
   return (
-    <Container className="justify-content-center">
+    <Container className="home-main justify-content-center">
       <Row className="banner justify-content-center" >
       </Row>
     </Container>

@@ -1,0 +1,51 @@
+.nav {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+}
+.nav .menu-toggle {
+  margin-right: 1rem;
+}
+.nav .brand-img {
+  max-width: 15rem;
+  margin-left: 1rem;
+}
+.nav .nav-link {
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+}
+.nav .signin {
+  background-color: #8CC63F;
+  width: 6rem;
+  text-align: center;
+}
+.nav .signup:hover {
+  background-color: #FCC617;
+}
+.nav .signup {
+  border: solid 1px #FCC617;
+  width: 6rem;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .nav .signin {
+    background: #ffffff;
+    border: none;
+  }
+  .nav .signin:hover {
+    background-color: #8CC63F;
+    text-transform: underline;
+  }
+  .nav .signup {
+    background: #ffffff;
+    border: none;
+  }
+  .nav .signup:hover {
+    background-color: #8CC63F;
+    text-transform: underline;
+  }
+}/*# sourceMappingURL=nav.css.map */
