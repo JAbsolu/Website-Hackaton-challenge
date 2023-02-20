@@ -1,0 +1,13 @@
+.signup-nav .nav-link {
+  padding: 0;
+}
+.signup-nav .nav-link:hover,
+.signup-nav .nav-link:active {
+  color: #8CC63F;
+  text-decoration: underline;
+}
+.signup-nav .nav-links-container {
+  display: flex;
+  align-items: start;
+  max-width: 100%;
+}/*# sourceMappingURL=signup-nav.css.map */

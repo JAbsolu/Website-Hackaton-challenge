@@ -1,11 +1,12 @@
-import { Container } from "react-bootstrap";
-import SignUpForm from "./components/signup/form";
+import SignupContainer from "./components/container/signup-container";
+import SignupNav from "./components/nav/signup-nav";
 
 const SignUp = () => {
     return (
-        <Container>
-            <SignUpForm/>
-        </Container>
+        <div>
+            <SignupNav/>
+            <SignupContainer/>
+        </div>
     )
 }
 

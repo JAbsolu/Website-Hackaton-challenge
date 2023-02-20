@@ -1,0 +1,72 @@
+$yellow: #FCC617;
+$green: #8CC63F;
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #5F5F5F;
+$light-grey: #EFEFEF;
+
+.form-container {
+    width: 50%;
+    background-color: $white;
+    box-shadow: 3px 3px 8px 5px $light-grey;
+    padding: 3rem 4rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+
+    .form-label-custom {
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: .7rem;
+    }
+
+    .signup-btn {
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: 1rem;
+        background-color: $green;
+        color: $black;
+        border: none;
+        padding: .7rem 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .signup-btn:hover,
+    .signup-btn:active
+     {
+        box-shadow: 1px 3px 4px 0px $dark-grey;
+        background-color: $green;
+        color: $black;
+    }
+
+    .form-field-custom {
+        height: 3rem;
+        font-size: 100%;
+        background-color: $light-grey;
+        border: none;
+    }
+
+    .signin-link-prompt {
+        font-weight: bold;
+        color: $green;
+    }
+}
+
+
+
+
+@media (max-width: 900px) {
+    .form-container {
+        width: 80% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .form-container {
+        width: 90% !important;
+        padding: 1.5rem;
+        max-height: 95%;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
