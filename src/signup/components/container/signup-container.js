@@ -1,12 +1,13 @@
 import { Container } from "react-bootstrap";
 import SignUpForm from "../signup/form";
+import './signup-container.css';
 
-const SignupMain = () => {
+const SignupContainer = () => {
     return (
-        <Container>
+        <Container className="form-container">
             <SignUpForm/>
         </Container>
     )
 };
 
-export default SignupMain;
+export default SignupContainer;
