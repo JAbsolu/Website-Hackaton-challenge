@@ -32,6 +32,10 @@ $light-grey: #EFEFEF;
         width: 6rem;
         text-align: center;
     }
+
+    .signin:hover {
+        box-shadow: 1px 3px 4px 0px $dark-grey;
+    }
     
     .signup:hover {
         background-color: $yellow;
@@ -51,9 +55,12 @@ $light-grey: #EFEFEF;
             border: none;
         }
 
-        .signin:hover {
-            background-color: $green;
-            text-transform: underline;
+        .signin:hover,
+        .signin:active {
+            background: $white;
+            text-decoration: underline;
+            color: $green;
+            box-shadow: none;
         }
 
         .signup {
@@ -61,9 +68,10 @@ $light-grey: #EFEFEF;
             border: none;
         }
 
-        .signup:hover {
-            background-color: $green;
-            text-transform: underline ;
+        .signup:hover,
+        .signup:active {
+            text-decoration: underline ;
+            color: $green;
         }
     }
 }

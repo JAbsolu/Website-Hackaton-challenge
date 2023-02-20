@@ -22,6 +22,9 @@
   width: 6rem;
   text-align: center;
 }
+.nav .signin:hover {
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
+}
 .nav .signup:hover {
   background-color: #FCC617;
 }
@@ -36,16 +39,20 @@
     background: #ffffff;
     border: none;
   }
-  .nav .signin:hover {
-    background-color: #8CC63F;
-    text-transform: underline;
+  .nav .signin:hover,
+  .nav .signin:active {
+    background: #ffffff;
+    text-decoration: underline;
+    color: #8CC63F;
+    box-shadow: none;
   }
   .nav .signup {
     background: #ffffff;
     border: none;
   }
-  .nav .signup:hover {
-    background-color: #8CC63F;
-    text-transform: underline;
+  .nav .signup:hover,
+  .nav .signup:active {
+    text-decoration: underline;
+    color: #8CC63F;
   }
 }/*# sourceMappingURL=nav.css.map */

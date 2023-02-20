@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import '../../signup.css';
 
 const SignUpForm = () => {
   const [selectedRole, setSelectedRole] = useState('');
@@ -14,48 +16,43 @@ const SignUpForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form className='form-custom' onSubmit={handleSubmit}>
+      <Form.Group controlId="formBasicFirstName">
+        <Form.Label className='form-label-custom'>First Name</Form.Label>
+        <Form.Control className='form-field-custom' type="text" placeholder="Enter first name" />
+      </Form.Group>
+
+      <Form.Group controlId="formBasicLastName">
+        <Form.Label className='form-label-custom'>Last Name</Form.Label>
+        <Form.Control className='form-field-custom' type="text" placeholder="Enter last name" />
+      </Form.Group>
+
       <Form.Group controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Label className='form-label-custom'>Email Address</Form.Label>
+        <Form.Control className='form-field-custom' type="email" placeholder="Enter email" />
+      </Form.Group>
+
+      <Form.Group controlId="formBasicPhone">
+        <Form.Label className='form-label-custom'>Home Number</Form.Label>
+        <Form.Control className='form-field-custom' type="text" placeholder="Enter phone number" />
       </Form.Group>
 
       <Form.Group controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
+        <Form.Label className='form-label-custom'>Password</Form.Label>
+        <Form.Control className='form-field-custom' type="password" placeholder="Password" />
       </Form.Group>
 
-      <Form.Group controlId="formBasicRole">
-        <Form.Label>Select Role</Form.Label>
-        <Form.Check
-          type="radio"
-          name="role"
-          label="Parent"
-          value="parent"
-          checked={selectedRole === 'parent'}
-          onChange={handleRadioChange}
-        />
-        <Form.Check
-          type="radio"
-          name="role"
-          label="Student"
-          value="student"
-          checked={selectedRole === 'student'}
-          onChange={handleRadioChange}
-        />
-        <Form.Check
-          type="radio"
-          name="role"
-          label="Instructor"
-          value="instructor"
-          checked={selectedRole === 'instructor'}
-          onChange={handleRadioChange}
-        />
+      <Form.Group controlId="formBasicPasswordConfirmation">
+        <Form.Label className='form-label-custom'>Confirm Password</Form.Label>
+        <Form.Control className='form-field-custom' type="password" placeholder="Confirm password" />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button className='signup-btn' variant="primary" type="submit">
         Sign Up
       </Button>
+      <br/>
+      <br/>
+      <span className='signin-link-prompt-txt'>Already have an account? <Link className='signin-link-prompt' to="/sigin">Sign in</Link></span>
     </Form>
   );
 }

@@ -1,0 +1,26 @@
+$yellow: #FCC617;
+$green: #8CC63F;
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #5F5F5F;
+$light-grey: #EFEFEF;
+
+.signup-nav {
+
+    .nav-link {
+        padding: 0;
+    }
+
+    .nav-link:hover,
+    .nav-link:active {
+        color: $green;
+        text-decoration: underline;
+    }
+
+    .nav-links-container {
+        display: flex;
+        align-items: start;  
+        max-width: 100%;
+    }
+
+}
