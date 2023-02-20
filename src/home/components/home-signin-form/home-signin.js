@@ -2,11 +2,11 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import '../../signin.css';
+import './home-signin.css';
 
-const SigninForm = () => {
+const HomeSignin = () => {
     return (
-        <Container className="form-container">
+        <Container className="home-form-container">
             <Form action='#' method='post' className='signin-form'>
                 <Form.Group className="mb-3" controlId='FormBasicEmail'>
                     <Form.Label className='form-label-custom'>Email or Username</Form.Label>
@@ -19,7 +19,7 @@ const SigninForm = () => {
                     <Form.Control className='form-field-custom' type='password' placeholder='Enter password'></Form.Control>
                     <Form.Text className='text-danger'></Form.Text>
                 </Form.Group>
-
+                
                 <div className='d-flex justify-content-between'>
                     <Button type='submit' className='signin-submit'>
                         Sign in
@@ -36,4 +36,4 @@ const SigninForm = () => {
     )
 };
 
-export default SigninForm;
+export default HomeSignin;

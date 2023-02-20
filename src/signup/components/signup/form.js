@@ -52,7 +52,7 @@ const SignUpForm = () => {
       </Button>
       <br/>
       <br/>
-      <span className='signin-link-prompt-txt'>Already have an account? <Link className='signin-link-prompt' to="/sigin">Sign in</Link></span>
+      <span className='signin-link-prompt-txt'>Already have an account? <Link className='signin-link-prompt' to="/signin">Sign in</Link></span>
     </Form>
   );
 }

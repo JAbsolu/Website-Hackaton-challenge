@@ -1,18 +1,20 @@
-.form-container {
-  width: 50%;
+.home-main {
+  padding-top: 2rem;
+}
+.home-main .home-form-container {
+  width: 80%;
   background-color: #ffffff;
   box-shadow: 3px 3px 8px 5px #EFEFEF;
-  padding: 3rem 4rem;
+  padding: 3rem 2rem;
   border-radius: 10px;
   margin-top: 2rem;
-  margin-bottom: 2.5rem;
 }
-.form-container .form-label-custom {
+.home-main .home-form-container .form-label-custom {
   font-weight: bold;
   font-size: 100%;
   margin-top: 0.7rem;
 }
-.form-container .signin-submit {
+.home-main .home-form-container .signin-submit {
   font-weight: bold;
   font-size: 100%;
   background-color: #8CC63F;
@@ -20,40 +22,40 @@
   border: none;
   padding: 0.7rem 1rem;
 }
-.form-container .signin-submit:hover,
-.form-container .signin-submit:active {
+.home-main .home-form-container .signin-submit:hover,
+.home-main .home-form-container .signin-submit:active {
   box-shadow: 1px 3px 4px 0px #5F5F5F;
   background-color: #8CC63F;
   color: #000000;
 }
-.form-container .form-field-custom {
+.home-main .home-form-container .form-field-custom {
   height: 3rem;
   font-size: 100%;
   background-color: #EFEFEF;
   border: none;
 }
-.form-container .new-act-btn {
+.home-main .home-form-container .new-act-btn {
   background-color: #FCC617;
   padding: 0.7rem;
   color: #000000;
   border: none;
   font-weight: bold;
 }
-.form-container .new-act-btn:hover {
+.home-main .home-form-container .new-act-btn:hover {
   box-shadow: 1px 3px 4px 0px #5F5F5F;
 }
 
 @media (max-width: 900px) {
-  .form-container {
-    width: 80% !important;
+  .home-form-container {
+    width: 100% !important;
   }
 }
 @media (max-width: 450px) {
-  .form-container {
-    width: 90% !important;
+  .home-form-container {
+    width: 98% !important;
     padding: 1.5rem;
     max-height: 95%;
     margin-top: 1rem;
     margin-bottom: 1.5rem;
   }
-}/*# sourceMappingURL=signin.css.map */
+}/*# sourceMappingURL=home-signin.css.map */

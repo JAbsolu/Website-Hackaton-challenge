@@ -1,7 +1,11 @@
+@import '../../../style-variables/variables.scss';
+
 .home-main {
-    .banner {
-        background-image: url('../../Images/socially-banner.png');
-        min-height: 100vh;
-        background-repeat: no-repeat;
+    .text-green {
+        color: $green;
+    }
+
+    .home-h1 {
+        font-weight: bold;
     }
 }

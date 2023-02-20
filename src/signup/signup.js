@@ -1,10 +1,10 @@
 import SignupContainer from "./components/container/signup-container";
-import SignupNav from "./components/nav/signup-nav";
+import AuthorizationNav from "./components/nav/signup-nav";
 
 const SignUp = () => {
     return (
         <div>
-            <SignupNav/>
+            <AuthorizationNav/>
             <SignupContainer/>
         </div>
     )

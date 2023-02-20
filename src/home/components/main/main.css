@@ -1,5 +1,6 @@
-.home-main .banner {
-  background-image: url("../../Images/socially-banner.png");
-  min-height: 100vh;
-  background-repeat: no-repeat;
+.home-main .text-green {
+  color: #8CC63F;
+}
+.home-main .home-h1 {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

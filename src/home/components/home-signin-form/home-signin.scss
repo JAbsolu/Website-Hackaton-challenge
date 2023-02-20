@@ -1,0 +1,74 @@
+@import '../../../style-variables/variables.scss';
+
+.home-main {
+    padding-top: 2rem;
+
+
+    .home-form-container {
+        width: 80%;
+        background-color: $white;
+        box-shadow: 3px 3px 8px 5px $light-grey;
+        padding: 3rem 2rem;
+        border-radius: 10px;
+        margin-top: 2rem;
+    
+        .form-label-custom {
+            font-weight: bold;
+            font-size: 100%;
+            margin-top: .7rem;
+        }
+    
+        .signin-submit {
+            font-weight: bold;
+            font-size: 100%;
+            background-color: $green;
+            color: $black;
+            border: none;
+            padding: .7rem 1rem;
+        }
+    
+        .signin-submit:hover,
+        .signin-submit:active {
+            box-shadow: 1px 3px 4px 0px $dark-grey;
+            background-color: $green;
+            color: $black;
+        }
+    
+        .form-field-custom {
+            height: 3rem;
+            font-size: 100%;
+            background-color: $light-grey;
+            border: none;
+        }
+    
+        .new-act-btn {
+            background-color: $yellow;
+            padding: .7rem;
+            color: $black;
+            border: none;
+            font-weight: bold;
+        }
+
+        .new-act-btn:hover {
+            box-shadow: 1px 3px 4px 0px $dark-grey;
+        }
+    
+    }
+}
+
+
+@media (max-width: 900px) {
+    .home-form-container {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-form-container  {
+        width: 98% !important;
+        padding: 1.5rem;
+        max-height: 95%;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+}
