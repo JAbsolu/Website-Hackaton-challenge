@@ -16,17 +16,7 @@ const SignUpForm = () => {
   };
 
   return (
-    <Form className='form-custom' onSubmit={handleSubmit}>
-      <Form.Group controlId="formBasicFirstName">
-        <Form.Label className='form-label-custom'>First Name</Form.Label>
-        <Form.Control className='form-field-custom' type="text" placeholder="Enter first name" />
-      </Form.Group>
-
-      <Form.Group controlId="formBasicLastName">
-        <Form.Label className='form-label-custom'>Last Name</Form.Label>
-        <Form.Control className='form-field-custom' type="text" placeholder="Enter last name" />
-      </Form.Group>
-
+    <Form onSubmit={handleSubmit}>
       <Form.Group controlId="formBasicEmail">
         <Form.Label className='form-label-custom'>Email Address</Form.Label>
         <Form.Control className='form-field-custom' type="email" placeholder="Enter email" />
