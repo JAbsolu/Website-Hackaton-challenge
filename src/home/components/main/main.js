@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const HomeMain = () => {
   return (
-    <Container className="home-main">
+    <Container className="home-main mt-4">
       <Row>
         <Col md={6} className="d-flex justify-content-center align-items-center">
           <div>
