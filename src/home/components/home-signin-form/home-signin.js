@@ -7,7 +7,7 @@ import './home-signin.css';
 const HomeSignin = () => {
     return (
         <Container className="home-form-container">
-            <Form action='#' method='post' className='signin-form'>
+            <Form action='./dashboard' method='post' className='signin-form'>
                 <Form.Group className="mb-3" controlId='FormBasicEmail'>
                     <Form.Label className='form-label-custom'>Email or Username</Form.Label>
                     <Form.Control className='form-field-custom' type='email' placeholder='Enter email or username'></Form.Control>

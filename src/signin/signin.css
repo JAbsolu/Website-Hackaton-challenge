@@ -1,4 +1,7 @@
-.form-container {
+.signin-container {
+  min-height: 65vh;
+}
+.signin-container .form-container {
   width: 50%;
   background-color: #ffffff;
   box-shadow: 3px 3px 8px 5px #EFEFEF;
@@ -7,12 +10,12 @@
   margin-top: 2rem;
   margin-bottom: 2.5rem;
 }
-.form-container .form-label-custom {
+.signin-container .form-container .form-label-custom {
   font-weight: bold;
   font-size: 100%;
   margin-top: 0.7rem;
 }
-.form-container .signin-submit {
+.signin-container .form-container .signin-submit {
   font-weight: bold;
   font-size: 100%;
   background-color: #8CC63F;
@@ -20,36 +23,35 @@
   border: none;
   padding: 0.7rem 1rem;
 }
-.form-container .signin-submit:hover,
-.form-container .signin-submit:active {
+.signin-container .form-container .signin-submit:hover,
+.signin-container .form-container .signin-submit:active {
   box-shadow: 1px 3px 4px 0px #5F5F5F;
   background-color: #8CC63F;
   color: #000000;
 }
-.form-container .form-field-custom {
+.signin-container .form-container .form-field-custom {
   height: 3rem;
   font-size: 100%;
   background-color: #EFEFEF;
   border: none;
 }
-.form-container .new-act-btn {
+.signin-container .form-container .new-act-btn {
   background-color: #FCC617;
   padding: 0.7rem;
   color: #000000;
   border: none;
   font-weight: bold;
 }
-.form-container .new-act-btn:hover {
+.signin-container .form-container .new-act-btn:hover {
   box-shadow: 1px 3px 4px 0px #5F5F5F;
 }
-
 @media (max-width: 900px) {
-  .form-container {
+  .signin-container .form-container {
     width: 80% !important;
   }
 }
 @media (max-width: 450px) {
-  .form-container {
+  .signin-container .form-container {
     width: 90% !important;
     padding: 1.5rem;
     max-height: 95%;

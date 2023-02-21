@@ -1,5 +1,9 @@
 @import '../style-variables/variables.scss';
 
+.signin-container {
+    min-height: 65vh;
+
+    
 .form-container {
     width: 50%;
     background-color: $white;
@@ -68,4 +72,5 @@
         margin-top: 1rem;
         margin-bottom: 1.5rem;
     }
+}
 }

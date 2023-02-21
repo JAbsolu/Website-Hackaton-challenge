@@ -1,12 +1,14 @@
-import { Container } from "react-bootstrap";
 import SigninMain from "./components/main/main";
 import AuthorizationNav from "../signup/components/nav/signup-nav";
+import MainFooter from "../footer/footer";
+
 const SigninPage = () => {
     return (
-        <Container>
+        <div>
           <AuthorizationNav/>
           <SigninMain/>
-        </Container>
+          <MainFooter/>
+        </div>
     );
 };
 

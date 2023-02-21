@@ -3,6 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import logo from '../../Images/logo.webp';
+import { FaUserFriends } from 'react-icons/fa';
 import './nav.css';
 
 const HomeNav = () => {
@@ -14,6 +15,7 @@ const HomeNav = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu-toggle'/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
+              <Link className='nav-link community-nav-link' to="./communities"><span><FaUserFriends className='nav-icon'/>Communities</span></Link>
               <Link className='nav-link signin' to="./signin">Sign in</Link>
               <Link className='nav-link signup' to="./signup">Join now</Link>
             </Nav>

@@ -8,7 +8,7 @@ $light-grey: #EFEFEF;
 .nav {
     background-color: $white;
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 68% 32%;
     align-items: center;
 
     .menu-toggle {
@@ -27,6 +27,18 @@ $light-grey: #EFEFEF;
         margin: 0 .5rem;
     }
 
+    .nav-icon {
+        margin-right: .5rem;
+    }
+
+    .community-nav-link {
+        background-color: $light-grey;
+    }
+
+    .community-nav-link:hover {
+        box-shadow: 1px 3px 4px 0px $dark-grey;
+    }
+
     .signin {
         background-color: $green;
         width: 6rem;
@@ -39,6 +51,7 @@ $light-grey: #EFEFEF;
     
     .signup:hover {
         background-color: $yellow;
+        box-shadow: 1px 3px 4px 0px $dark-grey;
     }
     
     .signup {

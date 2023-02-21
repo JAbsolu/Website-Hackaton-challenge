@@ -1,13 +1,13 @@
 import HomeNav from '../home/components/nav/home-nav';
 import HomeMain from '../home/components/main/main';
-import HomeFooter from "./components/footer/home-footer";
+import MainFooter from '../footer/footer';
 
 const Home = () => {
     return (
         <div>
             <HomeNav/>
             <HomeMain/>
-            <HomeFooter/>
+            <MainFooter/>
         </div>
     );
 };

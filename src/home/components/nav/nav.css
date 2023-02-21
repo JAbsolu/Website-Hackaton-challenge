@@ -1,7 +1,7 @@
 .nav {
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 68% 32%;
   align-items: center;
 }
 .nav .menu-toggle {
@@ -17,6 +17,15 @@
   border-radius: 5px;
   margin: 0 0.5rem;
 }
+.nav .nav-icon {
+  margin-right: 0.5rem;
+}
+.nav .community-nav-link {
+  background-color: #EFEFEF;
+}
+.nav .community-nav-link:hover {
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
+}
 .nav .signin {
   background-color: #8CC63F;
   width: 6rem;
@@ -27,6 +36,7 @@
 }
 .nav .signup:hover {
   background-color: #FCC617;
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
 }
 .nav .signup {
   border: solid 1px #FCC617;
