@@ -5,29 +5,29 @@ import './footer.css';
 
 function MainFooter() {
   return (
-    <footer className="main-footer py-4 mt-2">
+    <footer className="main-footer bg-dark py-4 mt-2">
       <Container className='main-footer-container'>
         <Row>
           <Col className='main-footer-col'>
             <ul className="list-inline text-center">
               <li className="list-inline-item mx-3">
                 <a href="https://www.instagram.com/sociallyimmersed/" target="_blank">
-                  <FaInstagram size={30} color="#000" />
+                  <FaInstagram size={25} color="#fff" />
                 </a>
               </li>
               <li className="list-inline-item mx-3">
                 <a href="https://www.youtube.com/channel/UC84cpb9Baqx4IxyXPmjL3kA" target="_blank">
-                  <FaYoutube size={30} color="#000" />
+                  <FaYoutube size={25} color="#fff" />
                 </a>
               </li>
               <li className="list-inline-item mx-3">
                 <a href="https://www.tiktok.com/404?fromUrl=/sociallyimmersed" target="_blank">
-                  <FaTiktok size={30} color="#000" />
+                  <FaTiktok size={25} color="#fff" />
                 </a>
               </li>
               <li className="list-inline-item mx-3">
                 <a href="https://www.linkedin.com/company/socially-immersed/" target="_blank">
-                  <FaLinkedin size={30} color="#000" />
+                  <FaLinkedin size={25} color="#fff" />
                 </a>
               </li>
             </ul>
@@ -35,7 +35,7 @@ function MainFooter() {
         </Row>
         <Row>
           <Col md={12} className="text-center text-white mt-3">
-            <p className='text-dark'>Copyright &copy; 2023 Socially Immersed LLC <br/> All rights reserved.</p>
+            <p className='text-light'>Copyright &copy; 2023 Socially Immersed LLC <br/> All rights reserved.</p>
           </Col>
         </Row>
       </Container>
