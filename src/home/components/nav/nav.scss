@@ -63,9 +63,15 @@ $light-grey: #EFEFEF;
 
 @media (max-width: 991px) {
     .nav {
+    grid-template-columns: 85% 15%;
+
         .signin {
             background: $white;
             border: none;
+        }
+
+        .community-nav-link {
+            background: $white;
         }
 
         .signin:hover,
@@ -86,5 +92,15 @@ $light-grey: #EFEFEF;
             text-decoration: underline ;
             color: $green;
         }
+
+        .menu-toggle {
+            width: 4rem;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .nav {
+        grid-template-columns: 79% 21%;
     }
 }

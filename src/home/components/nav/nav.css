@@ -45,9 +45,15 @@
 }
 
 @media (max-width: 991px) {
+  .nav {
+    grid-template-columns: 85% 15%;
+  }
   .nav .signin {
     background: #ffffff;
     border: none;
+  }
+  .nav .community-nav-link {
+    background: #ffffff;
   }
   .nav .signin:hover,
   .nav .signin:active {
@@ -64,5 +70,13 @@
   .nav .signup:active {
     text-decoration: underline;
     color: #8CC63F;
+  }
+  .nav .menu-toggle {
+    width: 4rem;
+  }
+}
+@media (max-width: 450px) {
+  .nav {
+    grid-template-columns: 79% 21%;
   }
 }/*# sourceMappingURL=nav.css.map */
