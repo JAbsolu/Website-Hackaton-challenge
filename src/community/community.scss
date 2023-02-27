@@ -1,0 +1,12 @@
+@import '../style-variables/variables.scss';
+
+.body-container {
+    
+    .text-green {
+        color: $green;
+    }
+
+    .card-custom:hover {
+        box-shadow:  0 .5rem 1rem rgba($black, .10);
+    }
+}
