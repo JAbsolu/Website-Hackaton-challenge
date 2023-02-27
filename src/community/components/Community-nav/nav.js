@@ -15,7 +15,10 @@ const CommunityNav = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu-toggle'/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
-              <Link className='nav-link community-nav-link' to="/communities"><span><FaUserFriends className='nav-icon'/>Communities</span></Link>
+              <Link className='nav-link home' to="/">Home</Link>
+              <Link className='nav-link community-nav-link' to="/communities">
+                <span><FaUserFriends className='nav-icon'/>Communities</span>
+              </Link>
               <Link className='nav-link signin' to="/signin">Sign in</Link>
               <Link className='nav-link signup' to="/signup">Join now</Link>
             </Nav>

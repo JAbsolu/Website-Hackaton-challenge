@@ -1,7 +1,7 @@
 .nav {
   background-color: #ffffff;
   display: grid;
-  grid-template-columns: 68% 32%;
+  grid-template-columns: 65% 35%;
   align-items: center;
 }
 .nav .menu-toggle {
@@ -19,6 +19,14 @@
 }
 .nav .nav-icon {
   margin-right: 0.5rem;
+}
+.nav .home {
+  background-color: #EFEFEF;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+.nav .home:hover {
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
 }
 .nav .community-nav-link {
   background-color: #EFEFEF;
@@ -47,6 +55,9 @@
 @media (max-width: 991px) {
   .nav {
     grid-template-columns: 85% 15%;
+  }
+  .nav .nav-link {
+    background-color: #ffffff;
   }
   .nav .nav-link:hover {
     background-color: #ffffff;

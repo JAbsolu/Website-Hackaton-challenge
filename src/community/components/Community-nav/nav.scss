@@ -8,7 +8,7 @@ $light-grey: #EFEFEF;
 .nav {
     background-color: $white;
     display: grid;
-    grid-template-columns: 68% 32%;
+    grid-template-columns: 65% 35%;
     align-items: center;
 
     .menu-toggle {
@@ -29,6 +29,16 @@ $light-grey: #EFEFEF;
 
     .nav-icon {
         margin-right: .5rem;
+    }
+
+    .home {
+        background-color: $light-grey;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .home:hover {
+        box-shadow: 1px 3px 4px 0px $dark-grey;
     }
 
     .community-nav-link {
@@ -64,6 +74,9 @@ $light-grey: #EFEFEF;
 @media (max-width: 991px) {
     .nav {
     grid-template-columns: 85% 15%;
+        .nav-link {
+            background-color: $white;
+        }
 
         .nav-link:hover {
             background-color: $white;
