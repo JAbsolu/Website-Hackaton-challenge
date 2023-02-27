@@ -1,0 +1,81 @@
+.nav {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 68% 32%;
+  align-items: center;
+}
+.nav .menu-toggle {
+  margin-right: 1rem;
+}
+.nav .brand-img {
+  max-width: 8rem;
+  margin-left: 1rem;
+}
+.nav .nav-link {
+  font-weight: bold;
+  color: #000000;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+}
+.nav .nav-icon {
+  margin-right: 0.5rem;
+}
+.nav .community-nav-link {
+  background-color: #EFEFEF;
+}
+.nav .community-nav-link:hover {
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
+}
+.nav .signin {
+  background-color: #8CC63F;
+  width: 6rem;
+  text-align: center;
+}
+.nav .signin:hover {
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
+}
+.nav .signup:hover {
+  background-color: #FCC617;
+  box-shadow: 1px 3px 4px 0px #5F5F5F;
+}
+.nav .signup {
+  border: solid 1px #FCC617;
+  width: 6rem;
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .nav {
+    grid-template-columns: 85% 15%;
+  }
+  .nav .nav-link:hover {
+    background-color: #ffffff;
+    box-shadow: none;
+    text-decoration: underline;
+    color: #8CC63F;
+  }
+  .nav .signin {
+    background: #ffffff;
+    border: none;
+  }
+  .nav .community-nav-link {
+    background: #ffffff;
+  }
+  .nav .signup {
+    background: #ffffff;
+    border: none;
+  }
+  .nav .signup:hover,
+  .nav .signup:active {
+    text-decoration: underline;
+    color: #8CC63F;
+  }
+  .nav .menu-toggle {
+    width: 4rem;
+  }
+}
+@media (max-width: 450px) {
+  .nav {
+    grid-template-columns: 79% 21%;
+  }
+}/*# sourceMappingURL=nav.css.map */
