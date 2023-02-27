@@ -48,19 +48,18 @@
   .nav {
     grid-template-columns: 85% 15%;
   }
+  .nav .nav-link:hover {
+    background-color: #ffffff;
+    box-shadow: none;
+    text-decoration: underline;
+    color: #8CC63F;
+  }
   .nav .signin {
     background: #ffffff;
     border: none;
   }
   .nav .community-nav-link {
     background: #ffffff;
-  }
-  .nav .signin:hover,
-  .nav .signin:active {
-    background: #ffffff;
-    text-decoration: underline;
-    color: #8CC63F;
-    box-shadow: none;
   }
   .nav .signup {
     background: #ffffff;

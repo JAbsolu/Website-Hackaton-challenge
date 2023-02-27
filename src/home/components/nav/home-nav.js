@@ -9,7 +9,7 @@ import './nav.css';
 const HomeNav = () => {
   return (
         <Navbar className='nav justify-content-between' expand="lg">
-          <Navbar.Brand href="#home" className='brand'>
+          <Navbar.Brand href="/" className='brand'>
             <img src={logo} className="brand-img"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu-toggle'/>

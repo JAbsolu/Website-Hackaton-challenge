@@ -35,15 +35,9 @@
   background-color: #EFEFEF;
   border: none;
 }
-.signin-container .form-container .new-act-btn {
-  background-color: #FCC617;
-  padding: 0.7rem;
-  color: #000000;
-  border: none;
-  font-weight: bold;
-}
-.signin-container .form-container .new-act-btn:hover {
-  box-shadow: 1px 3px 4px 0px #5F5F5F;
+.signin-container .form-container .new-act-link:hover {
+  text-decoration: underline;
+  color: #8CC63F !important;
 }
 @media (max-width: 900px) {
   .signin-container .form-container {

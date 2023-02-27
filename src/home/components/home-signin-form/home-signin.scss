@@ -40,17 +40,14 @@
             background-color: $light-grey;
             border: none;
         }
-    
-        .new-act-btn {
-            background-color: $yellow;
-            padding: .7rem;
-            color: $black;
-            border: none;
-            font-weight: bold;
-        }
 
         .new-act-btn:hover {
             box-shadow: 1px 3px 4px 0px $dark-grey;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+            color: $green !important;
         }
     
     }

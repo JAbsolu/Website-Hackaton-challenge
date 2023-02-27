@@ -25,10 +25,8 @@ const HomeSignin = () => {
                         Sign in
                     </Button>
 
-                    <Link to='/signup'>
-                        <Button type='button' className='new-act-btn'>
-                            Create new account
-                        </Button>
+                    <Link to='/signup' className='text-decoration-none'>
+                        <span className='fw-bold text-dark link'>Create new account</span>
                     </Link>
                 </div>  
             </Form>

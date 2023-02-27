@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import '../../signup.css';
-
 const SignUpForm = () => {
   const [selectedRole, setSelectedRole] = useState('');
 
@@ -16,7 +15,7 @@ const SignUpForm = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form onSubmit={handleSubmit} className="form">
       <Form.Group controlId="formBasicFirstName">
         <Form.Label className='form-label-custom'>First Name</Form.Label>
         <Form.Control className='form-field-custom' type="text" placeholder="Enter first name" />

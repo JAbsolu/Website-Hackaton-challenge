@@ -25,10 +25,8 @@ const SigninForm = () => {
                         Sign in
                     </Button>
 
-                    <Link to='/signup'>
-                        <Button type='button' className='new-act-btn'>
-                            Create new account
-                        </Button>
+                    <Link className='text-decoration-none' to='/signup'>
+                        <span className='new-act-link text-dark fw-bold'>Create new account</span>
                     </Link>
                 </div>  
             </Form>

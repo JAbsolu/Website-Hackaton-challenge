@@ -65,6 +65,13 @@ $light-grey: #EFEFEF;
     .nav {
     grid-template-columns: 85% 15%;
 
+        .nav-link:hover {
+            background-color: $white;
+            box-shadow: none;
+            text-decoration: underline;
+            color: $green;
+        }
+
         .signin {
             background: $white;
             border: none;
@@ -72,14 +79,6 @@ $light-grey: #EFEFEF;
 
         .community-nav-link {
             background: $white;
-        }
-
-        .signin:hover,
-        .signin:active {
-            background: $white;
-            text-decoration: underline;
-            color: $green;
-            box-shadow: none;
         }
 
         .signup {

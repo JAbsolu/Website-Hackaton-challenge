@@ -13,7 +13,9 @@ const AuthorizationNav = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='menu-toggle'/>
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto nav-links-container">
-              <Link className='nav-link home-link' to="/">Home</Link>
+              <Link className='nav-link home-link mb-2 mx-3' to="/">Home</Link>
+              <Link className='nav-link signup-link mb-2 mx-3' to="/signup">Register</Link>
+              <Link className='nav-link signup-link mb-2 mx-3' to="/signin">Sign in</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
