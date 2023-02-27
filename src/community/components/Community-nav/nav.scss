@@ -1,0 +1,105 @@
+$yellow: #FCC617;
+$green: #8CC63F;
+$black: #000000;
+$white: #ffffff;
+$dark-grey: #5F5F5F;
+$light-grey: #EFEFEF;
+
+.nav {
+    background-color: $white;
+    display: grid;
+    grid-template-columns: 68% 32%;
+    align-items: center;
+
+    .menu-toggle {
+        margin-right: 1rem;
+    }
+
+    .brand-img {
+        max-width: 8rem;
+        margin-left: 1rem;
+    } 
+
+    .nav-link {
+        font-weight: bold;
+        color: $black;
+        border-radius: 5px;
+        margin: 0 .5rem;
+    }
+
+    .nav-icon {
+        margin-right: .5rem;
+    }
+
+    .community-nav-link {
+        background-color: $light-grey;
+    }
+
+    .community-nav-link:hover {
+        box-shadow: 1px 3px 4px 0px $dark-grey;
+    }
+
+    .signin {
+        background-color: $green;
+        width: 6rem;
+        text-align: center;
+    }
+
+    .signin:hover {
+        box-shadow: 1px 3px 4px 0px $dark-grey;
+    }
+    
+    .signup:hover {
+        background-color: $yellow;
+        box-shadow: 1px 3px 4px 0px $dark-grey;
+    }
+    
+    .signup {
+        border: solid 1px $yellow;
+        width: 6rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav {
+    grid-template-columns: 85% 15%;
+
+        .nav-link:hover {
+            background-color: $white;
+            box-shadow: none;
+            text-decoration: underline;
+            color: $green;
+        }
+
+        .signin {
+            background: $white;
+            border: none;
+        }
+
+        .community-nav-link {
+            background: $white;
+        }
+
+        .signup {
+            background: $white;
+            border: none;
+        }
+
+        .signup:hover,
+        .signup:active {
+            text-decoration: underline ;
+            color: $green;
+        }
+
+        .menu-toggle {
+            width: 4rem;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .nav {
+        grid-template-columns: 79% 21%;
+    }
+}
